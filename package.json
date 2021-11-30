@@ -1,0 +1,40 @@
+{
+  "name": "b1-to-b0-convertor",
+  "version": "1.0.0",
+  "description": "JavaScript version of the python script BitBucketConverter.py useful for sending raw RF signals via Tasmota and Portisch on the Sonoff RF Bridge.",
+  "keywords": [
+    "b1",
+    "b0",
+    "convertor",
+    "b1-to-b0",
+    "sonoff",
+    "rf",
+    "bridge",
+    "tasmota",
+    "portisch",
+    "hassio",
+    "homeassistant",
+    "RFsend",
+    "rfraw",
+    "mqtt"
+  ],
+  "author": "François Massart",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoismassart/0xB1-to-0xB0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/francoismassart/0xB1-to-0xB0/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/b1-to-b0-convertor",
+  "files": ["index.js"],
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  },
+  "license": "MIT"
+}
